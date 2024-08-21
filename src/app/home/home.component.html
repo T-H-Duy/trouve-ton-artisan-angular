@@ -1,1 +1,23 @@
-<p>home works!</p>
+<main class="home d-flex flex-column align-items-center">
+    <section class="home__guide d-flex flex-column w-100">
+        <h1 class="home__guide-title text-center text-md-start ">Comment trouver mon artisan ?</h1>
+        <div class="home__guide-content d-flex justify-content-end">
+            <ol class="home__guide-list w-100">
+                <li class="home__guide-item">Choisir la catégorie d’artisanat dans le menu.</li>
+                <li class="home__guide-item">Choisir un artisan</li>
+                <li class="home__guide-item">Le contacter via le formulaire de contact.</li>
+                <li class="home__guide-item">Une réponse sera apportée sous 48h.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="home__artisan-section d-flex flex-column justify-content-center align-items-center">
+        <h2 class="home__artisan-title text-center">Les trois artisans du mois</h2>
+        <div class="home__artisan-highlighted d-flex justify-content-center align-items-center flex-wrap ">
+            <ng-container *ngFor="let artisan of (data)">
+                <app-artisan-card *ngIf="artisan.top" [artisan]="artisan"></app-artisan-card>
+            </ng-container>
+            
+        </div>
+    </section>
+</main>

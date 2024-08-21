@@ -1,1 +1,25 @@
-<p>search-result works!</p>
+<main class="artisan-list d-flex flex-column justify-content-center align-items-center px-4 px-sm-3">
+    <section class="artisan-list__container d-flex flex-column justify-content-start w-100">
+        <div class="artisan-list__header d-flex justify-content-between">
+            <h1 class="artisan-list__header-search" *ngIf="category || search">Résulta pour "{{category}} {{search}}"</h1>
+            <h1 class="artisan-list__header-search" *ngIf=" !category && !search">Tous nos artisan</h1>
+            <div class="d-flex">
+                <button type="button" class="artisan-list__header-sort bg-transparent d-flex justify-content-center align-items-center mx-2" (click)="sortArtisan(1)"><i class="fa-solid fa-arrow-up-wide-short"></i></button>
+                <button type="button" class="artisan-list__header-sort bg-transparent d-flex justify-content-center align-items-center mx-2" (click)="sortArtisan(-1)" ><i class="fa-solid fa-arrow-down-short-wide"></i></button>
+            </div>
+        </div>
+        <div class="artisan-list__result row">
+            <ng-container *ngFor="let artisan of (data | filter: category : search | sortByNote: order)">
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <app-artisan-card [artisan]="artisan"></app-artisan-card>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="(data | filter:category : search).length === 0">
+                <div class="artisan-list__no-result d-flex flex-column align-items-center">
+                    <h2 class="text-center" >Aucun résultat trouvé</h2>
+                    <img src="assets/img/noResult.png">
+                </div>
+            </ng-container>
+        </div>
+    </section>
+</main>

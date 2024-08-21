@@ -1,1 +1,17 @@
-<p>artisan-card works!</p>
+<div class="artisan d-flex flex-column" (click)="navigateToArtisanPage()">
+    <div class="artisan__rate d-flex justify-content-end">
+        <p class="artisan__rate-note">{{ artisan.note }}</p>
+        <div class="artisan__rate-stars d-flex justify-content-between align-items-center">
+            <ng-container *ngFor="let star of (rate)">
+                <i class="{{star}}"></i>
+            </ng-container>
+        </div>
+
+    </div>
+
+    <div class="artisan__details-container d-flex flex-column">
+        <p class="artisan__detail">{{ artisan.name }}</p>
+        <p class="artisan__detail">Spécialité : <strong>{{ artisan.specialty }}</strong></p>
+        <p class="artisan__detail">Localisation : <strong>{{ artisan.location }}</strong></p>
+    </div>
+</div> 

@@ -1,0 +1,40 @@
+
+.home__guide{
+    max-width: 792px;
+    background-color: #f1f8fc;
+    row-gap: 28px;
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 9px 20px 20px rgba(0, 0, 0, 0.25);
+}
+
+.home__guide-title, .home__artisan-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0074c7;
+}
+
+.home__guide-list{
+    max-width: 548px;
+}
+
+.home__guide-item{
+    color: #00497c;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.home__artisan-section{
+    max-width: 996px;
+    row-gap: 10px;
+    padding: 8px 2px;
+}
+
+.home__artisan-highlighted{
+    column-gap: 10px;
+    row-gap: 24px;
+    padding: 10px;
+}
+
+ 
