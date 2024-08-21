@@ -1,22 +1,22 @@
 <nav class="nav-bar">
     <div class="nav-bar__container d-flex justify-content-between align-items-center" >
         <a class="nav-bar__logo-link" [routerLink]="['home']">
-            <img class="nav-bar__logo" src="assets/img/Logo.png" alt="logo trouve ton artisan avec la region Auvergne-Rhône-Alpes">
+            <img class="nav-bar__logo" src="assets/img/LogoV1.png" alt="logo trouve ton artisan avec la region Auvergne-Rhône-Alpes">
         </a>
-
-        <button (click)="toggleMenu()" class="nav-bar__menuIcon "><i class="fa-solid fa-bars fa-2xl" style="color: #0074c7; font-size: 48px;"></i></button>
-
+        <button (click)="toggleMenu()" class="nav-bar__menuIcon "><i class="fa-solid fa-bars fa-2xl" style="color: #f1f8fc; font-size: 48px;"></i></button>
         <div class="nav-bar__menu d-flex flex-column align-items-lg-end align-items-center px-lg-1">
+            <div>
+                <ul class="nav-bar__list d-flex flex-column flex-lg-row list-unstyled py-1">
+                    <li class="nav-bar__item text-center" (click)="navigateToResult('Bâtiment')" ><a>Bâtiment</a></li>
+                    <li class="nav-bar__item text-center" (click)="navigateToResult('Services')" ><a>Services</a></li>
+                    <li class="nav-bar__item text-center" (click)="navigateToResult('Fabrication')" ><a>Fabrication</a></li>
+                    <li class="nav-bar__item text-center" (click)="navigateToResult('Alimentation')" ><a>Alimentation</a></li>
+                </ul>
+            </div>
             <div class="nav-bar__search d-flex justify-content-between p-lg-1">
                 <input class="nav-bar__input" type="text" #search (keydown.enter)="navigateToResult(undefined,search.value)">
-                <a (click)="navigateToResult(undefined,search.value)" ><img class="nav-bar__searchIcon" src="assets/img/icons/search.png" alt="Icône de loupe bleue représentant la recherche ou la fonction de recherche."></a>
+                <a (click)="navigateToResult(undefined,search.value)" ><img class="nav-bar__searchIcon" src="assets/img/loupe.png" alt="Icône loupe de recherche" ></a>
             </div>
-            <ul class="nav-bar__list d-flex flex-column flex-lg-row list-unstyled py-1">
-                <li class="nav-bar__item text-center" (click)="navigateToResult('Bâtiment')" ><a>Bâtiment</a></li>
-                <li class="nav-bar__item text-center" (click)="navigateToResult('Services')" ><a>Services</a></li>
-                <li class="nav-bar__item text-center" (click)="navigateToResult('Fabrication')" ><a>Fabrication</a></li>
-                <li class="nav-bar__item text-center" (click)="navigateToResult('Alimentation')" ><a>Alimentation</a></li>
-            </ul>
         </div>
     </div>
 </nav> 

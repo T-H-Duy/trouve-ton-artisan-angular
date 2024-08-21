@@ -1,9 +1,10 @@
 .nav-bar{
-    background-color: #f1f8fc;
+    background-color: #00497c;
+    padding: 10px;
 }
 
 .nav-bar__container{
-    margin: 0 144px 0 144px;
+    margin: 10px;
 }
 
 .nav-bar__logo{
@@ -20,43 +21,36 @@
 }
 
 .nav-bar__item{
-    color: #384050;
+    color: #f1f8fc;
     font-size: 1.25rem;
 }
 
 .nav-bar__item:hover{
-    color: #00497c;
+    color: #82b864;
     cursor: pointer;
 }
 
 .nav-bar__input{
     width: 100%;
-    background-color: #f1f8fc;
+    background-color: white;
 }
 
 .nav-bar__search{
     width: fit-content;
-    border-bottom: solid 2px #00497c;
-    border-right: solid 2px #00497c ;
 }
 
 .nav-bar__menuIcon{
     display: none;
 }
 
-.nav-bar__searchIcon{
-    cursor: pointer;
-}
-
 @media only screen and (max-width : 992px) {
     .nav-bar__menuIcon {
-        display: block;
+        display: flex;
         cursor: pointer;
-        margin-right:24px ;
     }
 
     .nav-bar__container{
-        margin:0 24px 0 24px ; 
+        margin: 10px ; 
     }
 
     .nav-bar__menu{
@@ -87,14 +81,14 @@
     .nav-bar__item{
         width: 100%;
         padding: 16px 24px 16px 24px;
-        border-bottom: solid #00497c 0.5px ;
+        border-bottom: solid #f1f8fc 0.5px ;
     }
 
     .nav-bar__search{
         width: 95%;
         padding: 10px;
         margin: 10px 24px 10px 24px;
-        border: solid #00497c 1px;
+        border: solid #f1f8fc 1px;
         border-radius: 15px;
     }
 }
