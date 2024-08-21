@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ArtisanCardComponent } from '../artisan-card/artisan-card.component';
-import { ArtisanService } from '../artisan.service';
-import { SortByNotePipe } from '../sort-by-note.pipe';
+import { ArtisanCardComponent } from '../../components/artisan-card/artisan-card.component';
+import { ArtisanService } from '../../services/artisan.service';
+import { SortByNotePipe } from '../../pipes/sort-by-note.pipe';
 import { CommonModule } from '@angular/common';
 
 @Component({

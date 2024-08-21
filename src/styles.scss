@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+    font-family: "Graphik";
+    src: url('assets/fonts/GraphikRegular.otf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url('assets/fonts/GraphikBold.otf') format("truetype");
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url('assets/fonts/GraphikSemibold.otf') format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url('assets/fonts/GraphikMedium.otf') format("truetype");
+    font-weight: 600;
+}
+
+*{  
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Graphik";
+}
+
+main{
+    padding: 109px 10px 109px 10px;
+    row-gap: 84px;
+}
+
+.fa-star, .fa-star-half-stroke{
+    color: #0074c7;
+    font-size: 24px;
+}
+

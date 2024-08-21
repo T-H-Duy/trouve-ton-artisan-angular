@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { EmailService } from '../email.service';
+import { EmailService } from '../../services/email.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ResponseModalComponent } from '../response-modal/response-modal.component';
 import { CommonModule } from '@angular/common';
@@ -97,4 +97,3 @@ export class ContactFormComponent {
   }
 
 }
-

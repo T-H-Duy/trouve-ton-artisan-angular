@@ -39,4 +39,3 @@ export class EmailService {
     return throwError(() => new Error(errorMessage));
   }
 }
-

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { RouterModule, Router } from '@angular/router';
-import { StarRateService } from '../star-rate.service';
+import { StarRateService } from '../../services/star-rate.service';
 
 @Component({
   selector: 'app-artisan-card',

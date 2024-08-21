@@ -1,9 +1,9 @@
 import { Routes , RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ArtisanPageComponent } from './artisan-page/artisan-page.component';
-import { SearchResultComponent } from './search-result/search-result.component';
-import { NotFoundErrorComponent } from './not-found-error/not-found-error.component';
-import { ResponseModalComponent } from './response-modal/response-modal.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ArtisanPageComponent } from './pages/artisan-page/artisan-page.component';
+import { SearchResultComponent } from './pages/search-result/search-result.component';
+import { NotFoundErrorComponent } from './pages/not-found-error/not-found-error.component';
+import { ResponseModalComponent } from './components/response-modal/response-modal.component';
 
 export const routes: Routes = [
     { path: '', redirectTo:'home', pathMatch:'full' },
@@ -16,3 +16,5 @@ export const routes: Routes = [
     
     { path:'**', component: NotFoundErrorComponent }
 ];
+ 
+

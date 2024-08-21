@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { ContactFormComponent } from '../contact-form/contact-form.component';
+import { ContactFormComponent } from '../../components/contact-form/contact-form.component';
 import { ActivatedRoute } from '@angular/router';
-import { ArtisanService } from '../artisan.service';
-import { StarRateService } from '../star-rate.service';
+import { ArtisanService } from '../../services/artisan.service';
+import { StarRateService } from '../../services/star-rate.service';
 import { CommonModule } from '@angular/common';
 
 @Component({

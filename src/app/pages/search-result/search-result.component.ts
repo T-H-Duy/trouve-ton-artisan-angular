@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ArtisanCardComponent } from '../artisan-card/artisan-card.component';
+import { ArtisanCardComponent } from '../../components/artisan-card/artisan-card.component';
 import { ActivatedRoute } from '@angular/router';
-import { ArtisanService } from '../artisan.service';
-import { FilterPipe } from '../filter.pipe';
+import { ArtisanService } from '../../services/artisan.service';
+import { FilterPipe } from '../../pipes/filter.pipe';
 import { CommonModule } from '@angular/common';
-import { SortByNotePipe } from '../sort-by-note.pipe';
+import { SortByNotePipe } from '../../pipes/sort-by-note.pipe';
 
 @Component({
   selector: 'app-search-result',
