@@ -1,6 +1,6 @@
 <section class="contact-form d-flex flex-column justify-content-center align-items-center w-100">
-    <h1 class="contact-form__title text-center" >Contacter votre artisant</h1>
-    <p class="contact-form__error w-100" id="error" *ngIf="!fieldOk">Tout les champ sont obligatoire</p>
+    <h1 class="contact-form__title text-center" >Contactez votre artisan</h1>
+    <p class="contact-form__error w-100" id="error" *ngIf="!fieldOk">Tous les champs sont obligatoires</p>
     <form class="contact-form__form d-flex flex-column justify-content-center w-100" (submit)="sendEmail()">
         <label for="name" class="contact-form__label">Nom</label>
         <input type="text" id="name" name="name" class="contact-form__input" [ngClass]="{'empty-field': emptyFields.name}" [(ngModel)]="emailData.name"> 
@@ -8,7 +8,7 @@
         <label for="email" class="contact-form__label">Email</label>
         <input  type="email" id="email" name="email" class="contact-form__input" [ngClass]="{'empty-field': emptyFields.from}" [(ngModel)]="emailData.from">
 
-        <label for="subject" class="contact-form__label">Object</label>
+        <label for="subject" class="contact-form__label">Objet</label>
         <input type="text" id="subject" name="subject" class="contact-form__input" [ngClass]="{'empty-field': emptyFields.subject}" [(ngModel)]="emailData.subject">
 
         <label for="message" class="contact-form__label">Message</label>

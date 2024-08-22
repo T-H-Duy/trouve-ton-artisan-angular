@@ -100,7 +100,7 @@
 		"name": "Electrique Sud-Est",
 		"specialty": "Electricien",
 		"note": "4.2",
-		"location": "Evian",
+		"location": "Valence",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"elec.s-est@gmail.com",
 		"website":"https://electrique-sudest.fr",
@@ -187,7 +187,7 @@
 		"location": "Valence",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"lanterne-bleue@hotmail.com",
-		"website":"http://lanterne-bleue.fr",
+		"website":"https://lanterne-bleue.fr",
 		"category":"Art",
 		"top": false
 	}

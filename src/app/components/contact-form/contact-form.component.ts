@@ -3,7 +3,6 @@ import { EmailService } from '../../services/email.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ResponseModalComponent } from '../response-modal/response-modal.component';
 import { CommonModule } from '@angular/common';
-import { log } from 'node:console';
 
 
 @Component({
