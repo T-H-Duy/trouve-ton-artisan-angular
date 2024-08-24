@@ -20,7 +20,6 @@ export class HeaderComponent {
     }
   }
 
-  // Method to navigate to the results page based on category or search term
   navigateToResult(category:string = "", search:string = ""){
     if (category){
       this.router.navigate(['/result',category])

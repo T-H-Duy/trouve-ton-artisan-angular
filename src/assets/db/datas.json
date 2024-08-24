@@ -20,7 +20,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"a.couture@gmail.com",
 		"website":"https://annie-couture.fr",
-		"category":"Art",
+		"category":"Fabrication",
 		"top": false
 	},
 	{
@@ -32,7 +32,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"lana.beaute@gmail.com",
 		"website":"https://lana-beaute.fr",
-		"category":"Service",
+		"category":"Services",
 		"top": false
 	},
 	{
@@ -44,7 +44,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"charlie.chocolaterie@gmail.com",
 		"website":"https://charlie-chocolaterie.fr",
-		"category":"Alimentaire",
+		"category":"Alimentation",
 		"top": true
 	},
 	{
@@ -56,7 +56,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"diamand-brillant@gmail.com",
 		"website":"https://diamand-brillant.fr",
-		"category":"Art",
+		"category":"Fabrication",
 		"top": false
 	},
 	{
@@ -68,7 +68,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"irenne.odile@gmail.com",
 		"website":"https://irenne&odile.fr",
-		"category":"Service",
+		"category":"Services",
 		"top": false
 	},
 	{
@@ -92,7 +92,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"berline.chauffeur@gmail.com",
 		"website":"https://berline-pilote.fr",
-		"category":"Service",
+		"category":"Services",
 		"top": false
 	},
 	{
@@ -116,7 +116,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"grosrobert@gmail.com",
 		"website":"https://legrosrobert.fr",
-		"category":"Alimentaire",
+		"category":"Alimentation",
 		"top": true
 	},
 	{
@@ -128,7 +128,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"fromage-puant@gmail.com",
 		"website":"https://lefromagepuant.fr",
-		"category":"Alimentaire",
+		"category":"Alimentation",
 		"top": false
 	},
 	{
@@ -152,7 +152,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"biere-fraiche@gmail.com",
 		"website":"https://biere-fraiche.fr",
-		"category":"Alimentaire",
+		"category":"Alimentation",
 		"top": false
 	},
 	{
@@ -164,7 +164,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"assiette-plate@gmail.com",
 		"website":"https://assiette-plate.fr",
-		"category":"Art",
+		"category":"Fabrication",
 		"top": false
 	},
 	{
@@ -176,7 +176,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"grosbras@gmail.com",
 		"website":"https://gros-bras-malabar.fr",
-		"category":"Service",
+		"category":"Services",
 		"top": false
 	},
 	{
@@ -188,7 +188,7 @@
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"lanterne-bleue@hotmail.com",
 		"website":"https://lanterne-bleue.fr",
-		"category":"Art",
+		"category":"Fabrication",
 		"top": false
 	}
 ]
