@@ -1,25 +1,25 @@
-.modal{
+.modal {
     --bs-modal-bg: #f1f8fc;
 }
 
-.modal-backdrop{
+.modal-backdrop {
   z-index: -1000;
   background-color: rgba(0, 0, 0, 0.548);
 }
 
-.modal-header{
+.modal-header {
     border-bottom: none
 }
 
-.modal-message{
+.modal-message {
     font-size: 1.5rem;
 }
 
-.ok{
+.ok {
   color:#82b864 ;
 }
 
-.error{
+.error {
   color: #cd2c2e;
 }
 

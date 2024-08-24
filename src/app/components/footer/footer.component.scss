@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,22 +7,22 @@
     background-color: #384050; 
 }
 
-.footer__column{
+.footer__column {
     width: 450px;
     padding-inline: 120px;
 }
 
-.footer__title{
+.footer__title {
     color: #fff;
     font-size: 1rem;
     font-weight: 500 ;
 }
 
-.footer_item{
+.footer_item {
     color: #fff;
 }
 
-.footer_item-link{
+.footer_item-link {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;

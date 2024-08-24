@@ -1,7 +1,7 @@
-p{
+p {
     margin: 0;
 }
-.contact-form{
+.contact-form {
     max-width: 792px;
     background-color: #f1f8fc;
     row-gap: 10px;
@@ -10,36 +10,36 @@ p{
     box-shadow: 9px 20px 20px rgba(0, 0, 0, 0.25);
 }
 
-.contact-form__title{
+.contact-form__title {
     color: #0074c7;
     font-size: 2rem;
     font-weight: 500;
 }
 
-.contact-form__error{
+.contact-form__error {
   font-size: 1.25rem;
   color: #cd2c2e;  
   text-align: start;
 }
 
-.contact-form__form{
+.contact-form__form {
     row-gap: 10px;
 }
 
-.contact-form__label{
+.contact-form__label {
     color: #00497c;
     font-size: 1rem;
     font-weight: 600;
 } 
 
-.contact-form__input{
+.contact-form__input {
     height: 35px;
     padding: 10px 10px;
     border: solid #0074c7 1px;
     border-radius: 10px;
 }
 
-.contact-form__textarea{
+.contact-form__textarea {
     padding: 10px 10px;
     border: solid #0074c7 1px;
     border-radius: 10px;
@@ -47,12 +47,12 @@ p{
     min-height: 300px;
 }
 
-.empty-field{
+.empty-field {
   background-color: #cd2c2f1a;
   border-color: #CD2C2E;
 }
 
-.contact-form__submit{
+.contact-form__submit {
     font-family: inherit;
     font-size: 20px;
     background: #0074c7;
@@ -68,7 +68,7 @@ p{
     cursor: pointer;
 }
 
-.contact-form__submit-span{
+.contact-form__submit-span {
     display: block;
     margin-left: 0.3em;
     transition: all 0.3s ease-in-out;
@@ -80,11 +80,11 @@ p{
     transition: transform 0.3s ease-in-out;
   }
 
-  .contact-form__submit:hover{
+  .contact-form__submit:hover {
     background: #00497c;
   }
 
-  .svg-wrapper{
+  .svg-wrapper {
     display: block;
   }
   
@@ -114,7 +114,7 @@ p{
     }
   }
 
-  .shake{
+  .shake {
     animation: shake 0.2s;
   }
 

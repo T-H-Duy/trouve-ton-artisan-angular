@@ -1,52 +1,57 @@
-.nav-bar{
+.nav-bar {
     background-color: #00497c;
     padding: 10px;
     box-shadow: 0 10px 10px rgba(86, 153, 230, 0.55);
 }
 
-.nav-bar__container{
+.nav-bar__container {
     margin: 10px;
 }
 
-.nav-bar__logo{
+.nav-bar__logo {
     width: 255px;
     height: auto;
 }
 
-.nav-bar__menu{
+img:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.nav-bar__menu {
     row-gap: 10px;
 }
 
-.nav-bar__list{
+.nav-bar__list {
     column-gap: 30px;
 }
 
-.nav-bar__item{
+.nav-bar__item {
     color: #f1f8fc;
     font-size: 1.25rem;
 }
 
-.nav-bar__item:hover{
+.nav-bar__item:hover {
     color: #82b864;
     cursor: pointer;
 }
 
-.nav-bar__input{
+.nav-bar__input {
     width: 100%;
     background-color: white;
 }
 
-.nav-bar__search{
+.nav-bar__search {
     width: fit-content;
     height: 35px;
 }
 
-.nav-bar__searchIcon{
+.nav-bar__searchIcon {
     height: 25px;
     padding: 3px;
 }
 
-.nav-bar__menuIcon{
+.nav-bar__menuIcon {
     display: none;
 }
 
@@ -56,11 +61,11 @@
         cursor: pointer;
     }
 
-    .nav-bar__container{
+    .nav-bar__container {
         margin: 10px ; 
     }
 
-    .nav-bar__menu{
+    .nav-bar__menu {
         position: fixed;
         height: 0;
         top: 144px;
@@ -74,23 +79,23 @@
         overflow:hidden ;
     } 
 
-    .active{
+    .active {
         height: 445px;
         opacity: 1;
     }
 
-    .nav-bar__list{
+    .nav-bar__list {
         width: 100%;
         row-gap: 10px;
     }
 
-    .nav-bar__item{
+    .nav-bar__item {
         width: 100%;
         padding: 16px 24px 16px 24px;
         border-bottom: solid #f1f8fc 0.5px ;
     }
 
-    .nav-bar__search{
+    .nav-bar__search {
         width: 85%;
         padding: 10px;
         margin: 10px 24px 10px 24px;

@@ -1,9 +1,9 @@
 
-p{
+p {
     margin: 0;
 }
 
-.artisan{
+.artisan {
     width: 316px ;
     height: 299px;
     background-color: #f1f8fc;
@@ -14,48 +14,48 @@ p{
     box-shadow: 11px 18px 20px rgba(0, 0, 0, 0.25);
 }
  
-.artisan:hover{
+.artisan:hover {
     cursor: pointer;
-    border: solid #cd2c2e 2px;
+    border: solid #82b864 2px;
     .artisan__details-container{
-        border: solid #cd2c2e 2px;
+        border: solid #82b864 2px;
     }
 }
 
-.artisan__rate{
+.artisan__rate {
     padding: 4px 2px;
     column-gap: 10px;
 }
 
-.artisan__rate-note{
+.artisan__rate-note {
     color: #00497c;
     font-weight: 500;
     font-size: 1.25rem;
 }
 
-.artisan__rate-stars{
+.artisan__rate-stars {
     width: 150px;
 }
 
-.fa-star, .fa-star-half-stroke{
+.fa-star, .fa-star-half-stroke {
     color: #0074c7;
     font-size: 24px;
 }
 
-.artisan__details-container{
+.artisan__details-container {
     background-color: #fff;
     padding: 20px 8px;
     row-gap: 10px;
     border-radius: 12px;
 }
 
-.artisan__detail{
+.artisan__detail {
     color: #0074c7;
     font-size: 1.25rem;
     font-weight: 500;
 }
 
-strong{
+strong {
     color: #00497c;
     font-weight: 500;
 }
