@@ -9,6 +9,7 @@
 		"email":"dupont-charpentier@gmail.com",
 		"website":"https://dupont-charpentier.fr",
 		"category":"Bâtiment",
+		"img":"assets/img/charpente.jpg",
 		"top": false
 	},
 	{
@@ -21,6 +22,7 @@
 		"email":"a.couture@gmail.com",
 		"website":"https://annie-couture.fr",
 		"category":"Fabrication",
+		"img":"assets/img/couture.jpg",
 		"top": false
 	},
 	{
@@ -33,6 +35,7 @@
 		"email":"lana.beaute@gmail.com",
 		"website":"https://lana-beaute.fr",
 		"category":"Services",
+		"img":"assets/img/estheticien.jpg",
 		"top": false
 	},
 	{
@@ -45,6 +48,7 @@
 		"email":"charlie.chocolaterie@gmail.com",
 		"website":"https://charlie-chocolaterie.fr",
 		"category":"Alimentation",
+		"img":"assets/img/chocolate.jpg",
 		"top": true
 	},
 	{
@@ -57,6 +61,7 @@
 		"email":"diamand-brillant@gmail.com",
 		"website":"https://diamand-brillant.fr",
 		"category":"Fabrication",
+		"img":"assets/img/diamand.jpg",
 		"top": false
 	},
 	{
@@ -69,6 +74,7 @@
 		"email":"irenne.odile@gmail.com",
 		"website":"https://irenne&odile.fr",
 		"category":"Services",
+		"img":"assets/img/coiffeuse.jpg",
 		"top": false
 	},
 	{
@@ -81,6 +87,7 @@
 		"email":"francois-carre@gmail.com",
 		"website":"https://f.carre-carrelage.fr",
 		"category":"Bâtiment",
+		"img":"assets/img/carrelage.jpg",
 		"top": false
 	},
 	{
@@ -93,6 +100,7 @@
 		"email":"berline.chauffeur@gmail.com",
 		"website":"https://berline-pilote.fr",
 		"category":"Services",
+		"img":"assets/img/chauffeur.jpg",
 		"top": false
 	},
 	{
@@ -105,6 +113,7 @@
 		"email":"elec.s-est@gmail.com",
 		"website":"https://electrique-sudest.fr",
 		"category":"Bâtiment",
+		"img":"assets/img/electricien.jpg",
 		"top": true
 	},
 	{
@@ -117,6 +126,7 @@
 		"email":"grosrobert@gmail.com",
 		"website":"https://legrosrobert.fr",
 		"category":"Alimentation",
+		"img":"assets/img/charcuterie.jpg",
 		"top": true
 	},
 	{
@@ -129,6 +139,7 @@
 		"email":"fromage-puant@gmail.com",
 		"website":"https://lefromagepuant.fr",
 		"category":"Alimentation",
+		"img":"assets/img/fromages.png",
 		"top": false
 	},
 	{
@@ -141,6 +152,7 @@
 		"email":"peinture-tricolor@gmail.com",
 		"website":"https://peinture-tricolor.fr",
 		"category":"Bâtiment",
+		"img":"assets/img/peintre.jpeg",
 		"top": false
 	},
 	{
@@ -153,6 +165,7 @@
 		"email":"biere-fraiche@gmail.com",
 		"website":"https://biere-fraiche.fr",
 		"category":"Alimentation",
+		"img":"assets/img/biere.jpeg",
 		"top": false
 	},
 	{
@@ -165,6 +178,7 @@
 		"email":"assiette-plate@gmail.com",
 		"website":"https://assiette-plate.fr",
 		"category":"Fabrication",
+		"img":"assets/img/assiettes.jpg",
 		"top": false
 	},
 	{
@@ -177,6 +191,7 @@
 		"email":"grosbras@gmail.com",
 		"website":"https://gros-bras-malabar.fr",
 		"category":"Services",
+		"img":"assets/img/demenageur.jpg",
 		"top": false
 	},
 	{
@@ -189,6 +204,7 @@
 		"email":"lanterne-bleue@hotmail.com",
 		"website":"https://lanterne-bleue.fr",
 		"category":"Fabrication",
+		"img":"assets/img/luminaire.jpg",
 		"top": false
 	}
 ]

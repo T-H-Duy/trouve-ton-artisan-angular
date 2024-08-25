@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-}
-
 .artisan__details-container {
     max-width: 792px;
     background-color: #f1f8fc;
     row-gap: 28px;
     padding: 24px;
+    border: thick double #0074c7;
     border-radius: 15px;
     box-shadow: 9px 20px 20px rgba(0, 0, 0, 0.25);
 }
@@ -17,7 +14,7 @@
 
 .artisan__title {
     color: #0074c7 ;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500 ;
 }
 
@@ -45,6 +42,12 @@
 .artisan__info {
     row-gap: 10px;
     padding: 10px;
+}
+
+.artisan__img {
+    width: 230px;
+    border: solid #384050;
+    border-radius: 15px;
 }
 
 strong {
