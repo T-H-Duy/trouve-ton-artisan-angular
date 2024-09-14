@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './not-found-error.component.html',
   styleUrl: './not-found-error.component.scss'
 })
+
 export class NotFoundErrorComponent {
 
 }
